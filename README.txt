@@ -1,7 +1,4 @@
-# alphariccati
-Companion code for "Approximate solutions to a nonlinear functional differential equation"
-
-These codes reproduce the results in HALE, THOMANN, and WEIDEMAN - 
+These codes reproduce the results in HALE, ThOMANN, and WEIDEMAN - 
 APPROXIMATE SOLUTIONS TO A NONLINER FUNCTIONAKL DIFFERENTIAL EQUATION
 
 The code relies on 
