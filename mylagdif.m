@@ -25,7 +25,7 @@ try
     c = [1; ders.*x(2:end)];       % c = exp(-x/2)./v
 catch
     [x, w, v] = lagpts(N-1, 'glr');         % www.chebfun.org
-    v = [1; v./x]; x = [0; x]; w = [0, w];  % Add pt at 0
+    v = v./x; v = [-sum(v) ; v]; x = [0; x]; w = [0, w];   % Add pt at 0
     c = exp(-x/2)./v;
 end
 C = c./c'; 
